@@ -1,0 +1,45 @@
+.holder {
+    display: flex; 
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.item:first-child {
+    display: flex; 
+    width: 50%; 
+    flex-grow: 2;   
+    background-color: red;
+}
+
+.item:nth-child(2) {
+    display: flex;
+    order: 4;
+    width:  33.3%;
+    flex-grow: 1;
+     background-color: blue;
+}
+
+.item:nth-child(3) {
+    display: flex;
+    order: 3;
+    width:  33.3%;
+    flex-grow: 1;
+    background-color: purple;
+}
+
+.item:nth-child(4) {
+    display: flex;
+    order: 5;
+    width:  33.3%;
+    flex-grow: 1;
+    background-color: green;
+}
+
+.item:nth-child(5) {
+    display: flex;
+    order: 2;
+     width:  50%;
+     flex-grow: 2;
+    background-color: yellow;
+}
